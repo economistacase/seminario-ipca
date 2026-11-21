@@ -178,16 +178,16 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
   <div class="corpo centro">
     <h2>Roteiro</h2>
     <div class="roteiro">
-      <div class="bloco"><div class="pessoa">Lucas Barreto Rosa<small>≈ 4½ min</small></div>
+      <div class="bloco"><div class="pessoa">Lucas Barreto Rosa</div>
         <div class="barra" style="background:var(--marinho-2)">1 · Introdução — por que prever, a pergunta, a literatura e o papel da IA</div></div>
-      <div class="bloco"><div class="pessoa">Diego Cota Machado<small>≈ 4¾ min</small></div>
+      <div class="bloco"><div class="pessoa">Diego Cota Machado</div>
         <div class="barra" style="background:var(--azul)">2 · Método — dados, backtest, 16 previsores, testes e governança</div></div>
-      <div class="bloco"><div class="pessoa">Raimundo Nonato Casé de Brito<small>≈ 4¾ min</small></div>
+      <div class="bloco"><div class="pessoa">Raimundo Nonato Casé de Brito</div>
         <div class="barra" style="background:var(--marinho)">3 · Resultados e 4 · Conclusões — acurácia, significância, fontes do erro e lições</div></div>
     </div>
     <div class="aviso" style="margin-top:calc(34*var(--u))">Ao final: <b>perguntas e debate</b>, com slides de apoio (glossário, tabela completa e estado da avaliação prospectiva).</div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Lucas (15 s).</b> Só anunciar a divisão: "eu abro com o problema; o Diego explica como o experimento foi montado; o Raimundo apresenta os resultados e as conclusões."</div>
 </section>
 
@@ -210,7 +210,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
       </div>
     </div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Lucas (1 min).</b> O gráfico é o que queremos prever: a inflação de cada mês. Mostrar que ela oscila bastante: há meses negativos (o corte do ICMS de 2022, destacado) e saltos. A faixa azul-escura no fim é o período em que os modelos foram avaliados. Frase de transição: "a pergunta, então, é se a inteligência artificial consegue fazer melhor que o próprio mercado nessa tarefa."</div>
 </section>
 
@@ -228,7 +228,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
       <div class="cartao m"><h3>Escopo</h3><p>Variação mensal do IPCA, <b>1 mês à frente</b>, dados de jan/2020 a out/2026.</p></div>
     </div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Lucas (1 min).</b> Ênfase em duas expressões: "só o que se sabia até o mês anterior" (é uma previsão honesta, sem olhar o futuro) e "estatisticamente distinguível" (não basta ter o menor erro; a diferença precisa ser maior que a sorte). A hipótese vem da literatura, não do resultado.</div>
 </section>
 
@@ -243,7 +243,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
       <div class="cartao m"><h3>Comparar com rigor</h3><p>Testes para amostra pequena (Harvey, Leybourne e Newbold, 1997), cuidado com muitas comparações (White, 2000) e Model Confidence Set (Hansen, Lunde e Nason, 2011).</p></div>
     </div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Lucas (45 s).</b> Uma frase por cartão. 1) Bater regras simples já é difícil. 2) Aprendizado de máquina funciona melhor com muitos dados, e nós temos poucos meses. 3) Por isso a comparação precisa de testes próprios para amostras pequenas.</div>
 </section>
 
@@ -253,14 +253,14 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
   <div class="corpo centro">
     <h2>Onde entra a inteligência artificial neste trabalho</h2>
     <div class="grade3">
-      <div class="cartao"><span class="selo">1 · prever</span><h3>IA que prevê</h3><p>Algoritmos de aprendizado de máquina (SVR, florestas, <i>boosting</i>, redes neurais) competem com a econometria na mesma tarefa.</p></div>
-      <div class="cartao"><span class="selo">2 · redigir</span><h3>IA que redige, sob regras</h3><p>Um agente de linguagem lê os resultados e redige o resumo executivo. Todo número do texto é <b>conferido em código</b>; se não existir nos arquivos, o texto é reprovado e nada é enviado.</p></div>
-      <div class="cartao"><span class="selo">3 · apoiar</span><h3>IA que apoia a pesquisa</h3><p>Busca bibliográfica, programação e rascunhos, com validação, interpretação e <b>responsabilidade dos autores</b>, registradas na declaração de uso de IA do artigo.</p></div>
+      <div class="cartao"><span class="selo">1 · modelagem</span><h3>Algoritmos como objeto de teste</h3><p>Aplicamos e comparamos SVR, florestas, <i>boosting</i> e redes neurais <b>frente à econometria</b>. Mesma tarefa, mesmas regras.</p></div>
+      <div class="cartao"><span class="selo">2 · síntese automatizada</span><h3>Resumo executivo sob nossas regras</h3><p>Um modelo de linguagem organiza o resumo dos resultados. Uma <b>trava em código</b> bloqueia qualquer número não auditado: sem conferência, nada é enviado.</p></div>
+      <div class="cartao"><span class="selo">3 · apoio à pesquisa</span><h3>Ferramenta, não autora</h3><p>Busca bibliográfica, código e revisão, sob nossa curadoria e validação. <b>Responsabilidade integral dos autores</b>, conforme a declaração do artigo.</p></div>
     </div>
-    <div class="destaque" style="margin-top:calc(26*var(--u))">Regra do projeto: <b>a IA não inventa números</b>. O código os produz e confere; a IA apenas os interpreta.</div>
+    <div class="destaque" style="margin-top:calc(26*var(--u))">Governança: <b>o código gera e confere os dados</b>; a IA organiza o texto; <b>os autores interpretam e decidem</b>.</div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
-  <div class="nota"><b>Lucas (1 min).</b> Este slide liga o trabalho à disciplina. Três papéis diferentes da IA, com níveis diferentes de autonomia: como modelo de previsão (o objeto do estudo), como redatora controlada (com verificação automática de cada número) e como ferramenta de apoio (com responsabilidade humana). Passar a palavra: "o Diego vai mostrar como o experimento foi montado para que a comparação fosse justa."</div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
+  <div class="nota"><b>Lucas (1 min).</b> Este slide liga o trabalho à disciplina e deixa claro quem conduziu a pesquisa: nós definimos o método, supervisionamos o processo e tomamos as decisões; a IA foi ferramenta operacional. 1) Os algoritmos são o objeto de teste, comparados à econometria. 2) Um modelo de linguagem organiza o resumo executivo, mas um código confere cada número e bloqueia o envio se algo não bater. 3) No apoio à pesquisa, tudo passou por nossa curadoria e validação. Passar a palavra: "o Diego vai mostrar como o experimento foi montado para que a comparação fosse justa."</div>
 </section>
 
 <!-- 7. DADOS =========================================================== -->
@@ -286,7 +286,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
       </div>
     </div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Diego (1 min).</b> Ideia-chave de engenharia: evitar vazamento, isto é, usar no treino algo que só se saberia depois. Exemplos: o IBC-Br sai com atraso, por isso entra defasado 3 meses; o filtro HP unilateral calcula o hiato de cada mês só com dados até aquele mês (o bilateral usaria o futuro). Os modelos de aprendizado de máquina recebem também a inflação de 1, 2 e 12 meses antes.</div>
 </section>
 
@@ -294,18 +294,18 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
 <section class="slide" data-min="1" data-quem="Diego" data-etapa="2">
   <div class="topo"><div class="etapas"></div><img src="data:image/png;base64,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" alt="IDP"></div>
   <div class="corpo">
-    <h2>Backtest: reviver o passado, um mês de cada vez</h2>
-    <div class="botoes"><button id="bt-play" class="on">▶ Animar</button>
-      <span class="rot" id="bt-rotulo" style="margin-left:calc(12*var(--u));font-size:calc(25*var(--u));color:var(--marinho)"></span></div>
-    <div class="grafico" id="g-backtest"></div>
-    <input type="range" id="bt-slider" min="0" max="20" value="6">
-    <div class="botoes" style="margin-top:calc(6*var(--u))">
+    <h2 style="margin-bottom:calc(10*var(--u))">Backtest: reviver o passado, um mês de cada vez</h2>
+    <div class="botoes" style="justify-content:center"><button id="bt-play" class="on">▶ Animar</button>
+      <span class="rot" id="bt-rotulo" style="margin-left:calc(12*var(--u));font-size:calc(27*var(--u));color:var(--marinho)"></span></div>
+    <div class="grafico" id="g-backtest" style="width:94%;align-self:center"></div>
+    <input type="range" id="bt-slider" min="0" max="20" value="6" style="width:90%;align-self:center">
+    <div class="botoes" style="justify-content:center;margin-top:calc(4*var(--u))">
       <span class="chip"><i style="background:var(--azul)"></i>treino (até <i style="background:none;width:auto;height:auto;font-style:italic">t</i>−1)</span>
       <span class="chip"><i style="background:var(--ocre)"></i>mês previsto (<i style="background:none;width:auto;height:auto">t</i>)</span>
       <span class="chip"><i style="background:var(--nevoa)"></i>futuro: invisível ao modelo</span>
-      <span class="rot" style="margin-left:auto">6 meses de aquecimento + 15 avaliados · reestimação mensal</span></div>
+      <span class="rot" style="margin-left:calc(20*var(--u))">6 meses de aquecimento + 15 avaliados · reestimação mensal</span></div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Diego (1 min).</b> Clicar em "Animar" ou arrastar a barra. Em cada passo, todos os modelos são reestimados só com os meses azuis, preveem o mês laranja e o erro é anotado. A janela de treino cresce mês a mês ("janela expansível"). Os 6 primeiros passos são aquecimento (servem para pesar as combinações); os 15 seguintes, de ago/2025 a out/2026, entram na avaliação.</div>
 </section>
 
@@ -332,7 +332,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
       </div>
     </div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Diego (45 s).</b> Não explicar cada modelo; mostrar as famílias. Os ingênuos são chamados assim porque não estimam nada: só repetem um valor já observado (termo técnico <i>naïve</i>, Hyndman e Athanasopoulos). Ponto central: o Focus joga com vantagem de informação, porque o mercado já viu metade do mês quando responde.</div>
 </section>
 
@@ -352,7 +352,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
     </div>
     <div class="destaque" style="margin-top:calc(30*var(--u))">Menor erro ≠ melhor modelo. A pergunta é se a diferença <b>sobrevive</b> aos testes.</div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Diego (1 min).</b> Analogia útil: se jogarmos 60 moedas, algumas darão sequências "estranhas" por pura sorte. Fazendo 60 testes, alguns parecem significativos por acaso; os ajustes corrigem isso. O MCS funciona como um "pódio estatístico": quem os dados não conseguem eliminar fica dentro.</div>
 </section>
 
@@ -374,7 +374,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
       </div>
     </div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Diego (1 min).</b> É o equivalente ao pré-registro de ensaios clínicos (Nosek et al., 2018): as regras são fixadas antes de ver o resultado. Tecnicamente, o registro é um arquivo em que só se acrescenta linhas, com o commit do código. As previsões para novembro vão de 0,19% a 0,47%; o Focus projetava 0,35%. O IBGE divulga o IPCA de novembro em dezembro. Passar a palavra: "o Raimundo apresenta o que o backtest mostrou."</div>
 </section>
 
@@ -396,7 +396,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
     </div>
     <div class="fonte">Erros em pontos percentuais, ago/2025 a out/2026 (15 meses, backtest pseudo-fora da amostra). Linha tracejada: ingênuo sazonal.</div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Raimundo (1 min 15 s).</b> Na camada A, só dois modelos ficam à esquerda da linha do ingênuo sazonal (SVR radial e MLP profunda). Trocar para MAE mostra que a ordem muda: o ranking é sensível à métrica. O ElasticNet degenerou para a média histórica em 12 dos 15 meses. Não falar em "melhor modelo": o slide de inferência mostra por quê.</div>
 </section>
 
@@ -409,7 +409,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
     <div class="grafico" id="g-trajetoria"></div>
     <div class="fonte">IPCA mensal (%), ago/2025 a out/2026. Também é possível clicar na legenda para ocultar séries.</div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Raimundo (45 s).</b> O IPCA vai de −0,32% a 0,88%; o ensemble geral fica entre 0,14% e 0,67%: os modelos "achatam" a série. O ingênuo sazonal copia o choque de fevereiro de 2025 e prevê 1,31% em fevereiro de 2026. O Focus acompanha melhor as viradas porque já viu parte do mês.</div>
 </section>
 
@@ -430,7 +430,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
     </div>
     <div class="fonte">30 comparações (contra o SARIMAX e contra o Focus) × 2 perdas (quadrática e absoluta). Menor p ajustado: 0,144.</div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Raimundo (1 min).</b> Clicar em "Ajustado": os 11 pontos laranja saem da faixa de significância e nenhum fica abaixo de 0,05. Nem a liderança do SVR é significativa (p = 0,289 contra o SARIMAX e 0,409 contra o Focus, perda quadrática). Passe o mouse em um ponto para ver a comparação.</div>
 </section>
 
@@ -449,7 +449,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
     </div>
     <div class="fonte">Pontos percentuais. Barras: contribuições ao IPCA; linha: erro do ensemble geral (realizado − previsto).</div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Raimundo (1 min).</b> Preços monitorados são os definidos por contrato ou por órgão público (energia, combustíveis, tarifas). Os três maiores erros do ensemble (ago/2025, ago/2026, set/2026) têm o mesmo sinal da contribuição dos monitorados, mas a associação não sobrevive à retirada do episódio. Ligação com Araujo e Gaglianone (2022): a qualidade da informação pesa mais que o método.</div>
 </section>
 
@@ -472,7 +472,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
     </div>
     <div class="destaque" style="font-size:calc(31*var(--u));text-align:center">Em amostras curtas, <b>o protocolo de avaliação importa mais que a escolha do modelo</b>.</div>
   </div>
-  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Previsão do IPCA: evidências e limites</span><span class="pag"></span></div>
   <div class="nota"><b>Raimundo (45 s).</b> Fechar com a mensagem central. Para a disciplina: a IA foi útil como ferramenta e como objeto de teste, mas o que dá credibilidade ao resultado é o protocolo (calendário real, testes corrigidos, congelamento e registro).</div>
 </section>
 
@@ -510,7 +510,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
       <p><b>Pseudo-fora da amostra:</b> simulação do passado sem usar o futuro, mas com escolhas feitas no mesmo período.</p>
     </div>
   </div>
-  <div class="rodape"><span>Slides de apoio</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Slides de apoio</span><span class="pag"></span></div>
 </section>
 
 <!-- APOIO A2. TABELA COMPLETA ========================================== -->
@@ -539,7 +539,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
     </table>
     <div class="fonte">ago/2025 a out/2026, 15 meses, backtest pseudo-fora da amostra. MCS restrito aos modelos não ingênuos da camada A.</div>
   </div>
-  <div class="rodape"><span>Slides de apoio</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Slides de apoio</span><span class="pag"></span></div>
 </section>
 
 <!-- APOIO A3. PAINEL PROSPECTIVO ======================================= -->
@@ -554,7 +554,7 @@ table.compacta th,table.compacta td{font-size:calc(21*var(--u));padding:calc(4.5
     <div class="aviso" style="margin-top:calc(26*var(--u))"><b>Estado atual:</b> nenhum mês prospectivo divulgado ainda. Com menos de 6 meses, só se reportam viés, MAE e RMSE; DM-HLN e MCS ficam para depois.</div>
     <p style="margin-top:calc(22*var(--u))">Os dois painéis nunca são misturados numa métrica única. Mudança de especificação após o congelamento invalida a amostra prospectiva acumulada.</p>
   </div>
-  <div class="rodape"><span>Slides de apoio</span><span class="quem"></span><span class="pag"></span></div>
+  <div class="rodape"><span>Slides de apoio</span><span class="pag"></span></div>
 </section>
 
 <div id="progresso"><div></div></div>
@@ -603,7 +603,7 @@ function layoutBase(extra){
     font:{family:"Fira Sans, Segoe UI, Calibri, Arial, sans-serif", size:fs(23), color:COR.tinta},
     paper_bgcolor:"rgba(0,0,0,0)", plot_bgcolor:"rgba(0,0,0,0)",
     margin:{l:90*unidade, r:24*unidade, t:14*unidade, b:70*unidade},
-    hoverlabel:{font:{size:fs(22)}, bgcolor:"#fff", bordercolor:COR.nevoa}, separators:",.",
+    hoverlabel:{font:{size:fs(26), color:"#fff", family:"Fira Sans, Segoe UI, Arial, sans-serif"}, bgcolor:COR.marinho, bordercolor:COR.ceu, align:"left"}, separators:",.",
     legend:{orientation:"h", y:-0.2, x:0, font:{size:fs(21)}},
   }, extra||{});
 }
@@ -614,8 +614,8 @@ const eixoY = (t, extra) => Object.assign({title:{text:t, font:{size:fs(21)}}, g
 function grafIPCA(){
   const d = DADOS.ipca, i0 = d.datas.indexOf("2025-08");
   const cores = d.datas.map((x,i) => i >= i0 ? COR.marinho : COR.ceu);
-  Plotly.react("g-ipca", [{type:"bar", x:d.meses, y:d.valores, marker:{color:cores},
-      hovertemplate:"%{x}: %{y:.2f}%<extra></extra>"}],
+  Plotly.react("g-ipca", [{type:"bar", x:d.meses, y:d.valores, marker:{color:cores}, customdata:d.meses,
+      hovertemplate:"<b>%{customdata}: %{y:.2f}%</b><extra></extra>"}],
     layoutBase({showlegend:false, bargap:0.25, margin:{l:70*unidade, r:16*unidade, t:40*unidade, b:60*unidade},
       yaxis:eixoY("% no mês", {dtick:0.5}),
       xaxis:{type:"category", tickmode:"array", tickvals:d.meses.filter(m=>m.startsWith("jan")), ticktext:d.meses.filter(m=>m.startsWith("jan")).map(m=>"20"+m.slice(4)), tickangle:0},
@@ -633,9 +633,9 @@ function grafBacktest(){
   const cores = d.valores.map((_,i) => i < t ? COR.azul : (i === t ? COR.ocre : COR.nevoa));
   const fase = k < 6 ? "aquecimento " + (k+1) + "/6" : "avaliação " + (k-5) + "/15";
   document.getElementById("bt-rotulo").innerHTML = `Treina com jan/20 a ${d.meses[t-1]} · prevê <b style="color:${COR.ocreEsc}">${d.meses[t]}</b> · ${fase}`;
-  Plotly.react("g-backtest", [{type:"bar", x:d.meses, y:d.valores, marker:{color:cores},
-      hovertemplate:"%{x}: %{y:.2f}%<extra></extra>"}],
-    layoutBase({showlegend:false, bargap:0.2, margin:{l:70*unidade, r:16*unidade, t:10*unidade, b:44*unidade},
+  Plotly.react("g-backtest", [{type:"bar", x:d.meses, y:d.valores, marker:{color:cores}, customdata:d.meses,
+      hovertemplate:"<b>%{customdata}: %{y:.2f}%</b><extra></extra>"}],
+    layoutBase({showlegend:false, bargap:0.2, margin:{l:80*unidade, r:30*unidade, t:6*unidade, b:44*unidade},
       yaxis:eixoY("% no mês", {dtick:0.5}),
       xaxis:{type:"category", tickmode:"array", tickvals:d.meses.filter(m=>m.startsWith("jan")), ticktext:d.meses.filter(m=>m.startsWith("jan")).map(m=>"20"+m.slice(4)), tickangle:0},
       shapes:[{type:"line", xref:"x", yref:"paper", x0:t-0.5, x1:t-0.5, y0:0, y1:1, line:{color:COR.ocre, width:2*unidade, dash:"dot"}}]}),
@@ -657,7 +657,7 @@ function grafRegistro(){
   const r = DADOS.registro, cores = r.nomes.map(n => n==="Mediana do Focus" ? COR.ocre : (n==="SARIMAX + Focus" ? COR.ceu : COR.azul));
   Plotly.react("g-registro", [{type:"bar", orientation:"h", y:r.nomes, x:r.valores, marker:{color:cores},
     text:r.valores.map(v=>fmt(v,2)+"%"), textposition:"outside", cliponaxis:false, textfont:{size:fs(19)},
-    hovertemplate:"%{y}: %{x:.4f}%<extra></extra>"}],
+    hoverinfo:"skip"}],
     layoutBase({showlegend:false, bargap:0.22, margin:{l:270*unidade, r:70*unidade, t:4*unidade, b:64*unidade},
       xaxis:{title:{text:"IPCA previsto para nov/2026 (%)", font:{size:fs(20)}, standoff:10*unidade}, dtick:0.1, range:[0,0.55], gridcolor:COR.grade, tickformat:".1f"},
       yaxis:{tickfont:{size:fs(19)}, dtick:1}}), CONFIG);
@@ -670,7 +670,7 @@ function grafRanking(){
   const nomes = ordem.map(i=>r.nomes[i]), vals = ordem.map(i=>r[metrica][i]), cam = ordem.map(i=>r.camada[i]);
   const cores = cam.map(c => c==="B" ? COR.ocre : (c==="C" ? COR.ceu : COR.azul));
   const ref = r[metrica][r.nomes.indexOf("Ingênuo sazonal")];
-  const texto = ordem.map(i => `<b>${r.nomes[i]}</b> · camada ${r.camada[i]}<br>RMSE ${fmt(r.rmse[i],4)} · MAE ${fmt(r.mae[i],4)}<br>Viés ${fmt(r.vies[i],4)} · ganho vs. ingênuo ${fmt(r.skill[i],1)}%`);
+  const texto = ordem.map(i => `<b>${r.nomes[i]}</b> · camada ${r.camada[i]}<br><b>RMSE ${fmt(r.rmse[i],4)} · MAE ${fmt(r.mae[i],4)}</b><br>Viés ${fmt(r.vies[i],4)} · ganho vs. ingênuo ${fmt(r.skill[i],1)}%`);
   Plotly.react("g-ranking", [{type:"bar", orientation:"h", y:nomes, x:vals, marker:{color:cores},
     text:vals.map(v=>fmt(v,3)), textposition:"outside", cliponaxis:false, textfont:{size:fs(19)},
     hovertext:texto, hoverinfo:"text"}],
@@ -714,7 +714,7 @@ function grafPvalores(animar){
   document.getElementById("pv-legenda").innerHTML = ajustado ? "testes significativos a 5% <b>após</b> o ajuste para comparações múltiplas" : "testes DM-HLN significativos a 5% <b>sem</b> ajuste";
   const traco = [{type:"scatter", mode:"markers", x:xs, y:ys,
     marker:{size:16*unidade, color:cores, opacity:.85, line:{color:"#fff", width:1.5*unidade}, symbol:P.map(p => p.perda==="quadrática" ? "circle" : "diamond")},
-    text:P.map(p => `<b>${p.rotulo}</b><br>perda ${p.perda}<br>p bruto ${fmt(p.p,3)} · p ajustado ${fmt(p.p_aj,3)}`), hoverinfo:"text"}];
+    text:P.map(p => `<b>${p.rotulo}</b><br>perda ${p.perda}<br><b>p bruto ${fmt(p.p,3)} · p ajustado ${fmt(p.p_aj,3)}</b>`), hoverinfo:"text"}];
   const lay = layoutBase({showlegend:false, margin:{l:200*unidade, r:24*unidade, t:30*unidade, b:70*unidade},
       xaxis:{title:{text:"p-valor (0 = diferença clara; 1 = nenhuma evidência)", font:{size:fs(20)}}, range:[-0.03,1.06], dtick:0.1, gridcolor:COR.grade, tickformat:".1f"},
       yaxis:{range:[-0.6,1.6], tickvals:[0,1], ticktext:["contra o Focus","contra o SARIMAX"], tickfont:{size:fs(21)}, gridcolor:"rgba(0,0,0,0)", zeroline:false},
@@ -754,8 +754,6 @@ function mostrar(i){
   const s = slides[atual], apoio = s.dataset.etapa === "A";
   const pag = s.querySelector(".pag");
   if (pag) pag.textContent = apoio ? "A" + (atual - principais + 1) : (atual+1) + " / " + principais;
-  const quem = s.querySelector(".rodape .quem");
-  if (quem) quem.textContent = (s.dataset.quem && !apoio) ? "Apresenta: " + s.dataset.quem : "";
   document.getElementById("contador").textContent = (atual+1) + "/" + slides.length;
   document.querySelector("#progresso div").style.width = (100*Math.min(atual+1, principais)/principais) + "%";
   const nota = s.querySelector(".nota");
